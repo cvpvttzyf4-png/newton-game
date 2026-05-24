@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Newton Apple Dodge Arcade</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-wrapper">
+    <h1>🍎 Newton Apple Dodge</h1>
+    <p>Retro 80s Arcade Edition</p>
+
+    <canvas id="gameCanvas" width="420" height="700"></canvas>
+
+    <div class="controls">
+        <button id="leftBtn">⬅️</button>
+        <button id="rightBtn">➡️</button>
+    </div>
+
+    <div class="bottom-bar">
+        <div id="score">Score: 0</div>
+        <button onclick="restartGame()">Restart</button>
+    </div>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
